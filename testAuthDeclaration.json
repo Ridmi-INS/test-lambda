@@ -1,0 +1,35 @@
+{
+    "permissions": [
+        {
+            "value": "matters:read",
+            "description": "read matters"
+        },
+        {
+            "value": "matters:create",
+            "description": "create matters"
+        },
+        {
+            "value": "matters:update",
+            "description": "update matters"
+        },
+        {
+            "value": "organisations:create",
+            "description": "create new organisations"
+        }
+    ],
+    "rolePermissions": {
+        "USERS": {
+            "description": "Regular users in an organisation",
+            "permissions": ["matters:read", "matters:create", "matters:update"]
+        },
+        "RTCADMIN": {
+            "description": "Realtime admin of entire system",
+            "permissions": [
+                "matters:read",
+                "matters:create",
+                "matters:update",
+                "organisations:create"
+            ]
+        }
+    }
+}

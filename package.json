@@ -1,0 +1,56 @@
+{
+    "name": "realtime-auth-deployment",
+    "version": "0.0.0",
+    "description": "Lambda function for deploying changes to Auth0",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "prebuild": "rm -rf dist",
+        "build": "esbuild src/index.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=dist/index.js",
+        "postbuild": "cd dist && zip -r index.zip index.js",
+        "buildCheckJson": "esbuild checkJson.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=checkJsonDist/checkJson.js",
+        "checkJson": "npm run buildCheckJson && NODE_ENV=production node checkJsonDist/checkJson.js",
+        "prepare": "husky"
+    },
+    "lint-staged": {
+        "*.{ts,yaml}": [
+            "eslint --fix",
+            "npx prettier -w --list-different"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/realtimeconveyancer/realtime-auth-deployment.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/realtimeconveyancer/realtime-auth-deployment/issues"
+    },
+    "homepage": "https://github.com/realtimeconveyancer/realtime-auth-deployment#readme",
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@jest/globals": "^30.3.0",
+        "@types/aws-lambda": "^8.10.161",
+        "@types/jest": "^30.0.0",
+        "esbuild": "^0.28.0",
+        "eslint": "^10.2.1",
+        "eslint-config-prettier": "^10.1.8",
+        "globals": "^17.5.0",
+        "husky": "^9.1.7",
+        "jest": "^30.3.0",
+        "jiti": "^2.6.1",
+        "lint-staged": "^15.2.9",
+        "prettier": "^3.6.2",
+        "prettier-plugin-organize-imports": "^2.3.3",
+        "ts-jest": "^29.4.9",
+        "typescript-eslint": "^8.59.0"
+    },
+    "dependencies": {
+        "axios": "^1.15.2",
+        "http-status-codes": "^2.3.0",
+        "pino": "^10.3.1",
+        "ts-node": "^10.9.2",
+        "yup": "^1.7.1"
+    }
+}

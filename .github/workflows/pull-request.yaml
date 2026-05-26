@@ -1,0 +1,48 @@
+name: Validate Pull Request 
+
+on:
+  pull_request:
+    branches:
+      - main 
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+
+env:
+  NODE_VERSION: '22.14.0'
+  WORKSPACE_NAME: workspace-${{ github.event.inputs.environment }}-${{ github.run_number }}-${{ github.run_attempt }}
+  environment: ${{ github.event.inputs.environment }}
+
+jobs:
+  check-validity:
+    name: Check validity of authDeclaration.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Install dependencies for check 
+        run: npm ci
+      - name: Run check
+        run: npm run checkJson 
+  build:
+    name: Build Lambda Function Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+  test:
+    name: Unit Test 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Install dependencies
+        run: npm ci
+      - name: Test 
+        run: npm run test 

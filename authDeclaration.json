@@ -1,0 +1,1373 @@
+{
+  "permissions": [
+    {
+      "value": "api:agent:execute",
+      "description": "Allow this user to execute agent api calls"
+    },
+    {
+      "value": "api:tracker:execute",
+      "description": "Allow this user to execute tracker api calls"
+    },
+    {
+      "value": "contact-management:contacts:create",
+      "description": "Allow the user to create contacts in the contacts management system"
+    },
+    {
+      "value": "contact-management:contacts:delete",
+      "description": "Allow the user to delete contacts in the contacts management system"
+    },
+    {
+      "value": "contact-management:contacts:read",
+      "description": "Allow the user to read contacts in the contacts management system"
+    },
+    {
+      "value": "contact-management:contacts:update",
+      "description": "Allow the user to update contacts in the contacts management system"
+    },
+    {
+      "value": "contact-management:read",
+      "description": "Allow the user to read the contacts management system"
+    },
+    {
+      "value": "contact:create",
+      "description": "Allows this user to create contact"
+    },
+    {
+      "value": "contact:delete",
+      "description": "Allows this user to delete contact"
+    },
+    {
+      "value": "contact:read",
+      "description": "Allows this user to create contact"
+    },
+    {
+      "value": "dashboard:read",
+      "description": "Allow the user to read their personalised dashboard"
+    },
+    {
+      "value": "diary:create",
+      "description": "Allow the user to create a diary"
+    },
+    {
+      "value": "diary:read",
+      "description": "Allow the user to read a diary"
+    },
+    {
+      "value": "diary:update",
+      "description": "Allow the user to update a diary"
+    },
+    {
+      "value": "documents:delete",
+      "description": "Allow the user to delete a document"
+    },
+    {
+      "value": "documents:download",
+      "description": "Allow the user to download a document"
+    },
+    {
+      "value": "documents:read",
+      "description": "Allow the user to read documents"
+    },
+    {
+      "value": "documents:update",
+      "description": "Allow the user to update a document"
+    },
+    {
+      "value": "external:pexa:user:read",
+      "description": "Allow the user to read their PEXA user"
+    },
+    {
+      "value": "external:pexa:workspace:create",
+      "description": "Allow the user to create a workspace in PEXA"
+    },
+    {
+      "value": "external:pexa:workspace:maintain",
+      "description": "Allows search of PEXA subscribers"
+    },
+    {
+      "value": "external:pexa:workspace:read",
+      "description": "Allow the user to read workspaces in PEXA"
+    },
+    {
+      "value": "external:pexa:workspace:retrieve",
+      "description": "Allows search of PEXA subscribers"
+    },
+    {
+      "value": "manage:contact:payee-details",
+      "description": "Allow a special user to manage Payee Details"
+    },
+    {
+      "value": "matter:communications:create",
+      "description": "Allow the user to create a matter communication"
+    },
+    {
+      "value": "matter:communications:email",
+      "description": "Allow the user to send a matter communications email"
+    },
+    {
+      "value": "matter:communications:read",
+      "description": "Allow the user to read matter communications"
+    },
+    {
+      "value": "matter:communications:update",
+      "description": "Allow the user to update matter communications"
+    },
+    {
+      "value": "matter:create",
+      "description": "Allow the user to create a matter"
+    },
+    {
+      "value": "matter:document:draft",
+      "description": "Zone to allow a special user to add the document draft in matters "
+    },
+    {
+      "value": "matter:documents:create",
+      "description": "Allow the user to create a matter document"
+    },
+    {
+      "value": "matter:documents:delete",
+      "description": "Allow the user to delete matter documents"
+    },
+    {
+      "value": "matter:documents:read",
+      "description": "Allow the user to read matter documents"
+    },
+    {
+      "value": "matter:documents:update",
+      "description": "Allow the user to update matter documents"
+    },
+    {
+      "value": "matter:edit:read",
+      "description": "Allow the user to read the matter edit page"
+    },
+    {
+      "value": "matter:edit:update",
+      "description": "Allow the user to update the matter edit page"
+    },
+    {
+      "value": "matter:financials:balance:create",
+      "description": "Allow the user to create balance"
+    },
+    {
+      "value": "matter:financials:balance:read",
+      "description": "Allow the user to read the balance tab"
+    },
+    {
+      "value": "matter:financials:fees-duties:create",
+      "description": "Allow the user to create fees and duties"
+    },
+    {
+      "value": "matter:financials:fees-duties:read",
+      "description": "Allow the user to read the fees and duties tab"
+    },
+    {
+      "value": "matter:financials:fees-duties:update",
+      "description": "Allow the user to update the fees and duties"
+    },
+    {
+      "value": "matter:financials:held-in-trust:edit",
+      "description": "Allow a special user to edit the held in trust tab of the matter financial"
+    },
+    {
+      "value": "matter:financials:held-in-trust:read",
+      "description": "Allow a special user to read the held in trust tab of the matter financial"
+    },
+    {
+      "value": "matter:financials:rates-taxes:busselton-water:create",
+      "description": "Allow the user to read the matter financials busselton water rates"
+    },
+    {
+      "value": "matter:financials:rates-taxes:busselton-water:read",
+      "description": "Allow the user to create matter financials busselton water rates"
+    },
+    {
+      "value": "matter:financials:rates-taxes:council:create",
+      "description": "Allow the user to create matter financials council\n            rates"
+    },
+    {
+      "value": "matter:financials:rates-taxes:council:read",
+      "description": "Allow the user to read the matter financials council\n            rates tab"
+    },
+    {
+      "value": "matter:financials:rates-taxes:esl:create",
+      "description": "Allow the user to read the matter financials busselton water rates"
+    },
+    {
+      "value": "matter:financials:rates-taxes:esl:read",
+      "description": "Allow the user to create matter financials busselton water rates"
+    },
+    {
+      "value": "matter:financials:rates-taxes:extra:create",
+      "description": "Allow the user to create matter financials extra\n            rates"
+    },
+    {
+      "value": "matter:financials:rates-taxes:extra:read",
+      "description": "Allow the user to read the matter financials extra rates\n            tab"
+    },
+    {
+      "value": "matter:financials:rates-taxes:land:create",
+      "description": "Allow the user to create matter financials land tax"
+    },
+    {
+      "value": "matter:financials:rates-taxes:land:read",
+      "description": "Allow the user to read the matter financials land tax\n            tab"
+    },
+    {
+      "value": "matter:financials:rates-taxes:miscellaneous:create",
+      "description": "Allow the user to create matter financials\n            miscellaneous charges"
+    },
+    {
+      "value": "matter:financials:rates-taxes:miscellaneous:read",
+      "description": "Allow the user to read the matter financials\n            miscellaneous charge tab"
+    },
+    {
+      "value": "matter:financials:rates-taxes:strata:create",
+      "description": "Allow the user to create matter financials strata\n            levies"
+    },
+    {
+      "value": "matter:financials:rates-taxes:strata:read",
+      "description": "Allow the user to read the matter financials strata\n            levies tab"
+    },
+    {
+      "value": "matter:financials:rates-taxes:water-consumption:create",
+      "description": "Allow the user to create matter financials\n            water-consumption"
+    },
+    {
+      "value": "matter:financials:rates-taxes:water-consumption:read",
+      "description": "Allow the user to read the matter financials\n            water-consumption tab"
+    },
+    {
+      "value": "matter:financials:rates-taxes:water:create",
+      "description": "Allow the user to create matter financials water\n            rates"
+    },
+    {
+      "value": "matter:financials:rates-taxes:water:read",
+      "description": "Allow the user to read the matter financials water rates\n            tab"
+    },
+    {
+      "value": "matter:financials:statements-invoices:create",
+      "description": "Allow the user to create statements and invoices"
+    },
+    {
+      "value": "matter:financials:statements-invoices:read",
+      "description": "Allow the user to read the statements and invoices\n            tab"
+    },
+    {
+      "value": "matter:financials:taxes:council:manualOverride:update",
+      "description": "zone to allow the use of the manual over"
+    },
+    {
+      "value": "matter:financials:taxes:esl:manualOverride:update",
+      "description": "zone to allow the use of the manual over"
+    },
+    {
+      "value": "matter:financials:taxes:land:manualOverride:update",
+      "description": "zone to allow the use of the manual over"
+    },
+    {
+      "value": "matter:financials:taxes:strata:insurance:manualOverride:update",
+      "description": "zone to allow the use of the manual over"
+    },
+    {
+      "value": "matter:financials:taxes:strata:manualOverride:update",
+      "description": "zone to allow the use of the manual over"
+    },
+    {
+      "value": "matter:financials:taxes:water-rates:manualOverride:update",
+      "description": "zone to allow the use of the manual override (water rates)"
+    },
+    {
+      "value": "matter:financials:taxes:water:consumption:manualOverride:update",
+      "description": "zone to allow the use of the manual over"
+    },
+    {
+      "value": "matter:history:read",
+      "description": "Allow the user to read matter history"
+    },
+    {
+      "value": "matter:invite:update",
+      "description": "Allow this user to update a matter invites"
+    },
+    {
+      "value": "matter:invites:create",
+      "description": "Allow the user to create matter invites"
+    },
+    {
+      "value": "matter:invites:delete",
+      "description": "Allow the user to delete matter invites"
+    },
+    {
+      "value": "matter:invites:read",
+      "description": "Allow the user to read the matter invites"
+    },
+    {
+      "value": "matter:notes:create",
+      "description": "Allow the user to create matter notes"
+    },
+    {
+      "value": "matter:notes:delete",
+      "description": "Zone to allow deleting of existing notes"
+    },
+    {
+      "value": "matter:notes:read",
+      "description": "Allow the user to read matter notes"
+    },
+    {
+      "value": "matter:notes:update",
+      "description": "Zone to allow editing of existing notes"
+    },
+    {
+      "value": "matter:orders:create",
+      "description": "Allows the user to place a document order for a matter"
+    },
+    {
+      "value": "matter:orders:read",
+      "description": "Allows the user to read a matters orders"
+    },
+    {
+      "value": "matter:pexa:documents:read",
+      "description": "Allows a user to retrieve a matter's pexa documents"
+    },
+    {
+      "value": "matter:pexa:settlement:read",
+      "description": "allows the user to view the pexa settlement"
+    },
+    {
+      "value": "matter:pexa:settlement:update",
+      "description": "allows the user to edit the pexa settlement"
+    },
+    {
+      "value": "matter:progress:create",
+      "description": "Allow the user to complete a task / subtask"
+    },
+    {
+      "value": "matter:progress:read",
+      "description": "Allow the user to read the matter progress"
+    },
+    {
+      "value": "matter:progress:update",
+      "description": "Allow the user to update the matter progress"
+    },
+    {
+      "value": "matter:read",
+      "description": "Allow the user to read a matter"
+    },
+    {
+      "value": "matter:trust:journal:read",
+      "description": "Allow the user to read trust account journal in the frontend"
+    },
+    {
+      "value": "matter:trust:ledger:read",
+      "description": "Allow the user to read trust account ledger in the frontend"
+    },
+    {
+      "value": "matter:trust:payments:read",
+      "description": "Allow the user to read trust account payments in the frontend"
+    },
+    {
+      "value": "matter:trust:read",
+      "description": "Allow the user to read the matter trust account"
+    },
+    {
+      "value": "matter:trust:receipts:read",
+      "description": "Allow the user to read trust account receipts in the frontend"
+    },
+    {
+      "value": "matter:trust:transactions:create",
+      "description": "Allow the user to create transactions in the matter trust account"
+    },
+    {
+      "value": "matter:trust:transactions:download",
+      "description": "Allow the user to download a matter transaction"
+    },
+    {
+      "value": "matter:trust:transactions:edit",
+      "description": "Allow this user to edit or cancel a transaction"
+    },
+    {
+      "value": "matter:trust:transactions:email",
+      "description": "Allow the user to send emails of a matter transaction"
+    },
+    {
+      "value": "matter:update",
+      "description": "Allow the user to update a matter"
+    },
+    {
+      "value": "notifications:delete",
+      "description": "Allows this user to delete notifications"
+    },
+    {
+      "value": "notifications:read",
+      "description": "Allows this user to create notifications"
+    },
+    {
+      "value": "organisation.admin:staffs:view",
+      "description": "Allows viewing of organisation staff details"
+    },
+    {
+      "value": "organisation:dashboard:read",
+      "description": "Allow the user to read the organisation dashboard"
+    },
+    {
+      "value": "organisation:reports:read",
+      "description": "Allows the user to access the non-financial organisation reports"
+    },
+    {
+      "value": "organisation:settings:create",
+      "description": "Allow the user to create organisation settings"
+    },
+    {
+      "value": "organisation:settings:delete",
+      "description": "Allow the user to delete organisation settings"
+    },
+    {
+      "value": "organisation:settings:read",
+      "description": "Allow the user to read the organisation settings"
+    },
+    {
+      "value": "organisation:settings:update",
+      "description": "Allow the user to update the organisation settings"
+    },
+    {
+      "value": "organisation:sms:create",
+      "description": "Zone to allow a special user to send sms"
+    },
+    {
+      "value": "organisation:sms:delete",
+      "description": "Zone to allow a special user to delete sms conversations"
+    },
+    {
+      "value": "organisation:sms:view",
+      "description": "Allow a user to View SMS Details"
+    },
+    {
+      "value": "organisation:templates:create",
+      "description": "Allow the user to create new templates for the organisation"
+    },
+    {
+      "value": "organisation:templates:delete",
+      "description": "Allow the user to delete templates from the organisation"
+    },
+    {
+      "value": "organisation:templates:read",
+      "description": "Allow the user to read all templates across the organisation"
+    },
+    {
+      "value": "organisation:templates:update",
+      "description": "Allow the user to update all templates across the organisation"
+    },
+    {
+      "value": "organisation:trust:auto-finance:create",
+      "description": "Zone to allow a special user to create the autofinance in organisation trust"
+    },
+    {
+      "value": "organisation:trust:auto-finance:read",
+      "description": "Zone to allow a special user to read the autofinance in organisation trust"
+    },
+    {
+      "value": "organisation:trust:auto-finance:update",
+      "description": "Zone to allow a special user to update the autofinance in organisation trust"
+    },
+    {
+      "value": "organisation:trust:reports:read",
+      "description": "Allows the user to access the non-financial organisation reports"
+    },
+    {
+      "value": "organisation:workflow:create",
+      "description": "Allow the user to create new workflows for the organisation"
+    },
+    {
+      "value": "organisation:workflow:delete",
+      "description": "Allow the user to delete workflows from the organisation"
+    },
+    {
+      "value": "organisation:workflow:read",
+      "description": "Allow the user to read all workflows across the organisation"
+    },
+    {
+      "value": "organisation:workflow:update",
+      "description": "Allow the user to update all workflows across the organisation"
+    },
+    {
+      "value": "preferences:read",
+      "description": "Allow the user to retrieve a preference"
+    },
+    {
+      "value": "provider:external:pexa:member:search",
+      "description": "Allows search of PEXA subscribers"
+    },
+    {
+      "value": "quotes:create",
+      "description": "Allow the user to create quotes"
+    },
+    {
+      "value": "quotes:read",
+      "description": "Allow the user to read quotes"
+    },
+    {
+      "value": "quotes:update",
+      "description": "Allow the user to update quotes"
+    },
+    {
+      "value": "reminders:create",
+      "description": "Allows this user to create reminders"
+    },
+    {
+      "value": "reminders:delete",
+      "description": "Allow this user to delete reminders"
+    },
+    {
+      "value": "reminders:read",
+      "description": "Allow this user to read reminders"
+    },
+    {
+      "value": "reminders:update",
+      "description": "Allow this user to update reminders"
+    },
+    {
+      "value": "rtc-admin:councils:edit",
+      "description": "Allows editing of global council details"
+    },
+    {
+      "value": "rtc-admin:councils:view",
+      "description": "Allows viewing of global council details"
+    },
+    {
+      "value": "rtc-admin:fees:edit",
+      "description": "Allows Editing of global fees details"
+    },
+    {
+      "value": "rtc-admin:fees:view",
+      "description": "Allows viewing of global fees details"
+    },
+    {
+      "value": "rtc-admin:integrations:edit",
+      "description": "Allow the user to edit integration settings"
+    },
+    {
+      "value": "rtc-admin:integrations:view",
+      "description": "Allow the user to view the all the integrations"
+    },
+    {
+      "value": "rtc-admin:organisations:edit",
+      "description": "Edit all organisations"
+    },
+    {
+      "value": "rtc-admin:organisations:view",
+      "description": "View all organisations"
+    },
+    {
+      "value": "rtc-admin:rate-tier-usage:edit",
+      "description": "Allows Editing of global rate-tier-usage details"
+    },
+    {
+      "value": "rtc-admin:rate-tier-usage:view",
+      "description": "Allows viewing of global rate-tier-usage details"
+    },
+    {
+      "value": "rtc-admin:rate-usage-land-tax:edit",
+      "description": "Allows Editing of global rate-usage-land-tax details"
+    },
+    {
+      "value": "rtc-admin:rate-usage-land-tax:view",
+      "description": "Allows viewing of global rate-usage-land-tax details"
+    },
+    {
+      "value": "rtc-admin:reports:active-users:generate",
+      "description": "Allow user to generate global admin active users report"
+    },
+    {
+      "value": "rtc-admin:reports:active-users:read",
+      "description": "Allow user to view global admin active users report"
+    },
+    {
+      "value": "rtc-admin:reports:matters-settled:generate",
+      "description": "Allow user to generate global admin matters settled report"
+    },
+    {
+      "value": "rtc-admin:reports:matters-settled:read",
+      "description": "Allow user to view global admin matters settled report"
+    },
+    {
+      "value": "rtc-admin:reports:ssrs-report:create",
+      "description": "Allow user to create global admin ssrs report"
+    },
+    {
+      "value": "rtc-admin:reports:ssrs-report:read",
+      "description": "Allow user to view global admin ssrs report"
+    },
+    {
+      "value": "rtc-admin:reports:ssrs-report:update",
+      "description": "Allow user to update global admin ssrs report"
+    },
+    {
+      "value": "rtc-admin:users:edit",
+      "description": "Edit all users"
+    },
+    {
+      "value": "rtc-admin:users:mfa:delete",
+      "description": "zone to allow removal of a users MFA token"
+    },
+    {
+      "value": "rtc-admin:users:view",
+      "description": "View all users"
+    },
+    {
+      "value": "rtc-admin:version:view",
+      "description": "Allow the user to view detailed information about the current version of realtime"
+    },
+    {
+      "value": "rtc-admin:workflow:view",
+      "description": "Allows viewing of workflow details"
+    },
+    {
+      "value": "rtc-support:read",
+      "description": "Allow user to read support"
+    },
+    {
+      "value": "rtc-support:update",
+      "description": "Allow user to update support"
+    },
+    {
+      "value": "tasks:create",
+      "description": "Allow this user to create tasks"
+    },
+    {
+      "value": "tasks:delete",
+      "description": "Allow this user to delete tasks"
+    },
+    {
+      "value": "tasks:read",
+      "description": "Allow this user to read tasks"
+    },
+    {
+      "value": "tasks:update",
+      "description": "Allow this user to update tasks"
+    },
+    {
+      "value": "trust:ledger:create",
+      "description": "Allow the user to create trust account ledgers"
+    },
+    {
+      "value": "trust:ledger:read",
+      "description": "Allow the user to read trust account ledgers"
+    },
+    {
+      "value": "trust:ledger:reconcile",
+      "description": "Allow the user to reconcile trust account ledgers"
+    },
+    {
+      "value": "trust:ledger:transaction:create",
+      "description": "Allows the user to add a transaction to a trust (non matter) ledger"
+    },
+    {
+      "value": "trust:ledger:update",
+      "description": "Allow the user to update trust account ledgers"
+    },
+    {
+      "value": "user:read",
+      "description": "Allow the user to read their own information"
+    },
+    {
+      "value": "user:settings:email:ms:read",
+      "description": "Ability to read ones own ms email settings"
+    },
+    {
+      "value": "user:settings:email:ms:update",
+      "description": "Ability to update ones own ms email settings"
+    },
+    {
+      "value": "user:settings:read",
+      "description": "Allow the user to read their settings"
+    },
+    {
+      "value": "user:settings:update",
+      "description": "Allow the user to update their settings"
+    },
+    {
+      "value": "user:update",
+      "description": "Allow the user to update their own information"
+    },
+    {
+      "value": "users:contact:bank-details:create",
+      "description": "Allow a special user to create a bank details"
+    },
+    {
+      "value": "users:contact:bank-details:notification:read",
+      "description": "Allow a special user to read a bank details notifications"
+    },
+    {
+      "value": "users:contact:bank-details:read",
+      "description": "Allow a special user to create a bank details"
+    },
+    {
+      "value": "users:contact:bank-details:update",
+      "description": "Allow a special user to edit the bank details"
+    },
+    {
+      "value": "users:others:access-roles:get",
+      "description": "Allows a user to view another's assignable roles"
+    },
+    {
+      "value": "users:others:access-roles:update",
+      "description": "Allows a user to edit another's assignable roles"
+    }
+  ],
+  "rolePermissions": {
+    "ACCESS_SMS": {
+      "description": "Role for users of an organisation to use sms functionality",
+      "permissions": [
+        "organisation:sms:create",
+        "organisation:sms:delete",
+        "organisation:sms:view"
+      ]
+    },
+    "ADMIN": {
+      "description": "Role for admin users of an organisation",
+      "permissions": [
+        "contact:create",
+        "contact:delete",
+        "contact:read",
+        "dashboard:read",
+        "documents:delete",
+        "documents:download",
+        "documents:read",
+        "documents:update",
+        "external:pexa:user:read",
+        "external:pexa:workspace:create",
+        "external:pexa:workspace:maintain",
+        "external:pexa:workspace:read",
+        "external:pexa:workspace:retrieve",
+        "matter:communications:create",
+        "matter:communications:email",
+        "matter:communications:read",
+        "matter:communications:update",
+        "matter:create",
+        "matter:documents:create",
+        "matter:documents:read",
+        "matter:documents:update",
+        "matter:edit:read",
+        "matter:edit:update",
+        "matter:financials:balance:create",
+        "matter:financials:balance:read",
+        "matter:financials:fees-duties:create",
+        "matter:financials:fees-duties:read",
+        "matter:financials:fees-duties:update",
+        "matter:financials:held-in-trust:edit",
+        "matter:financials:held-in-trust:read",
+        "matter:financials:rates-taxes:council:create",
+        "matter:financials:rates-taxes:council:read",
+        "matter:financials:rates-taxes:extra:create",
+        "matter:financials:rates-taxes:extra:read",
+        "matter:financials:rates-taxes:land:create",
+        "matter:financials:rates-taxes:land:read",
+        "matter:financials:rates-taxes:miscellaneous:create",
+        "matter:financials:rates-taxes:miscellaneous:read",
+        "matter:financials:rates-taxes:strata:create",
+        "matter:financials:rates-taxes:strata:read",
+        "matter:financials:rates-taxes:water-consumption:create",
+        "matter:financials:rates-taxes:water-consumption:read",
+        "matter:financials:rates-taxes:water:create",
+        "matter:financials:rates-taxes:water:read",
+        "matter:financials:statements-invoices:create",
+        "matter:financials:statements-invoices:read",
+        "matter:history:read",
+        "matter:invites:create",
+        "matter:invites:delete",
+        "matter:invites:read",
+        "matter:notes:create",
+        "matter:notes:read",
+        "matter:orders:create",
+        "matter:orders:read",
+        "matter:pexa:documents:read",
+        "matter:pexa:settlement:read",
+        "matter:pexa:settlement:update",
+        "matter:progress:create",
+        "matter:progress:read",
+        "matter:progress:update",
+        "matter:read",
+        "matter:trust:journal:read",
+        "matter:trust:ledger:read",
+        "matter:trust:payments:read",
+        "matter:trust:read",
+        "matter:trust:receipts:read",
+        "matter:trust:transactions:create",
+        "matter:trust:transactions:download",
+        "matter:trust:transactions:email",
+        "matter:update",
+        "notifications:delete",
+        "notifications:read",
+        "organisation.admin:staffs:view",
+        "organisation:settings:create",
+        "organisation:settings:delete",
+        "organisation:settings:read",
+        "organisation:settings:update",
+        "organisation:templates:create",
+        "organisation:templates:delete",
+        "organisation:templates:read",
+        "organisation:templates:update",
+        "organisation:trust:auto-finance:create",
+        "organisation:trust:auto-finance:read",
+        "organisation:trust:auto-finance:update",
+        "organisation:workflow:create",
+        "organisation:workflow:delete",
+        "organisation:workflow:read",
+        "organisation:workflow:update",
+        "preferences:read",
+        "provider:external:pexa:member:search",
+        "quotes:create",
+        "quotes:read",
+        "quotes:update",
+        "reminders:create",
+        "reminders:delete",
+        "reminders:read",
+        "reminders:update",
+        "tasks:create",
+        "tasks:delete",
+        "tasks:read",
+        "tasks:update",
+        "user:read",
+        "user:settings:read",
+        "user:settings:update",
+        "user:update",
+        "users:others:access-roles:get",
+        "users:others:access-roles:update"
+      ]
+    },
+    "ADMIN_BETA": {
+      "description": "Role for admin users of an organisation to test new features",
+      "permissions": [
+        "matter:document:draft",
+        "organisation:trust:auto-finance:create",
+        "organisation:trust:auto-finance:read",
+        "organisation:trust:auto-finance:update"
+      ]
+    },
+    "API_AGENT": {
+      "description": "Developer api user role for agent access",
+      "permissions": [
+        "api:agent:execute",
+        "user:read"
+      ]
+    },
+    "API_TRACKER": {
+      "description": "Developer api user role for tracker access",
+      "permissions": [
+        "api:tracker:execute",
+        "matter:invite:update",
+        "matter:read"
+      ]
+    },
+    "DEV": {
+      "description": "Role for developers. Must have access to all access zones.",
+      "permissions": [
+        "contact-management:contacts:create",
+        "contact-management:contacts:delete",
+        "contact-management:contacts:read",
+        "contact-management:contacts:update",
+        "contact-management:read",
+        "contact:create",
+        "contact:delete",
+        "contact:read",
+        "dashboard:read",
+        "diary:create",
+        "diary:read",
+        "diary:update",
+        "documents:delete",
+        "documents:download",
+        "documents:read",
+        "documents:update",
+        "external:pexa:user:read",
+        "external:pexa:workspace:create",
+        "external:pexa:workspace:maintain",
+        "external:pexa:workspace:read",
+        "external:pexa:workspace:retrieve",
+        "matter:communications:create",
+        "matter:communications:email",
+        "matter:communications:read",
+        "matter:communications:update",
+        "matter:create",
+        "matter:documents:create",
+        "matter:documents:read",
+        "matter:documents:update",
+        "matter:edit:read",
+        "matter:edit:update",
+        "matter:financials:balance:create",
+        "matter:financials:balance:read",
+        "matter:financials:fees-duties:create",
+        "matter:financials:fees-duties:read",
+        "matter:financials:fees-duties:update",
+        "matter:financials:held-in-trust:edit",
+        "matter:financials:held-in-trust:read",
+        "matter:financials:rates-taxes:busselton-water:create",
+        "matter:financials:rates-taxes:busselton-water:read",
+        "matter:financials:rates-taxes:council:create",
+        "matter:financials:rates-taxes:council:read",
+        "matter:financials:rates-taxes:esl:create",
+        "matter:financials:rates-taxes:esl:read",
+        "matter:financials:rates-taxes:extra:create",
+        "matter:financials:rates-taxes:extra:read",
+        "matter:financials:rates-taxes:land:create",
+        "matter:financials:rates-taxes:land:read",
+        "matter:financials:rates-taxes:miscellaneous:create",
+        "matter:financials:rates-taxes:miscellaneous:read",
+        "matter:financials:rates-taxes:strata:create",
+        "matter:financials:rates-taxes:strata:read",
+        "matter:financials:rates-taxes:water-consumption:create",
+        "matter:financials:rates-taxes:water-consumption:read",
+        "matter:financials:rates-taxes:water:create",
+        "matter:financials:rates-taxes:water:read",
+        "matter:financials:statements-invoices:create",
+        "matter:financials:statements-invoices:read",
+        "matter:financials:taxes:council:manualOverride:update",
+        "matter:financials:taxes:esl:manualOverride:update",
+        "matter:financials:taxes:land:manualOverride:update",
+        "matter:financials:taxes:strata:insurance:manualOverride:update",
+        "matter:financials:taxes:strata:manualOverride:update",
+        "matter:financials:taxes:water-rates:manualOverride:update",
+        "matter:financials:taxes:water:consumption:manualOverride:update",
+        "matter:history:read",
+        "matter:invites:create",
+        "matter:invites:delete",
+        "matter:invites:read",
+        "matter:notes:create",
+        "matter:notes:delete",
+        "matter:notes:read",
+        "matter:notes:update",
+        "matter:orders:create",
+        "matter:orders:read",
+        "matter:pexa:documents:read",
+        "matter:pexa:settlement:read",
+        "matter:pexa:settlement:update",
+        "matter:progress:create",
+        "matter:progress:read",
+        "matter:progress:update",
+        "matter:read",
+        "matter:trust:ledger:read",
+        "matter:trust:read",
+        "matter:trust:transactions:download",
+        "matter:trust:transactions:email",
+        "matter:update",
+        "notifications:delete",
+        "notifications:read",
+        "organisation:settings:create",
+        "organisation:settings:delete",
+        "preferences:read",
+        "provider:external:pexa:member:search",
+        "quotes:create",
+        "quotes:read",
+        "quotes:update",
+        "reminders:create",
+        "reminders:delete",
+        "reminders:read",
+        "reminders:update",
+        "tasks:create",
+        "tasks:delete",
+        "tasks:read",
+        "tasks:update",
+        "user:read",
+        "user:settings:email:ms:read",
+        "user:settings:email:ms:update",
+        "user:settings:read",
+        "user:settings:update",
+        "user:update"
+      ]
+    },
+    "OVERRIDE": {
+      "description": "Role for users to have access to the override functionality",
+      "permissions": [
+        "matter:financials:taxes:council:manualOverride:update",
+        "matter:financials:taxes:water-rates:manualOverride:update"
+      ]
+    },
+    "READ_ONLY_ADMIN": {
+      "description": "Role for readonly deactivated admin users",
+      "permissions": [
+        "contact-management:contacts:read",
+        "contact-management:read",
+        "contact:read",
+        "dashboard:read",
+        "diary:read",
+        "documents:read",
+        "external:pexa:user:read",
+        "external:pexa:workspace:read",
+        "matter:communications:read",
+        "matter:documents:read",
+        "matter:edit:read",
+        "matter:financials:balance:read",
+        "matter:financials:fees-duties:read",
+        "matter:financials:held-in-trust:read",
+        "matter:financials:rates-taxes:busselton-water:read",
+        "matter:financials:rates-taxes:council:read",
+        "matter:financials:rates-taxes:esl:read",
+        "matter:financials:rates-taxes:extra:read",
+        "matter:financials:rates-taxes:land:read",
+        "matter:financials:rates-taxes:miscellaneous:read",
+        "matter:financials:rates-taxes:strata:read",
+        "matter:financials:rates-taxes:water-consumption:read",
+        "matter:financials:rates-taxes:water:read",
+        "matter:financials:statements-invoices:read",
+        "matter:history:read",
+        "matter:invites:read",
+        "matter:notes:read",
+        "matter:orders:read",
+        "matter:pexa:documents:read",
+        "matter:pexa:settlement:read",
+        "matter:progress:read",
+        "matter:read",
+        "matter:trust:journal:read",
+        "matter:trust:ledger:read",
+        "matter:trust:payments:read",
+        "matter:trust:read",
+        "matter:trust:receipts:read",
+        "notifications:read",
+        "organisation.admin:staffs:view",
+        "organisation:dashboard:read",
+        "organisation:reports:read",
+        "organisation:settings:read",
+        "organisation:templates:read",
+        "organisation:trust:auto-finance:read",
+        "organisation:trust:reports:read",
+        "organisation:workflow:read",
+        "preferences:read",
+        "quotes:read",
+        "reminders:read",
+        "tasks:read",
+        "trust:ledger:read",
+        "user:read",
+        "user:settings:email:ms:read",
+        "user:settings:read",
+        "users:contact:bank-details:notification:read",
+        "users:contact:bank-details:read"
+      ]
+    },
+    "READ_ONLY_USER": {
+      "description": "Role for readonly deactivated admin users",
+      "permissions": [
+        "contact-management:contacts:read",
+        "contact-management:read",
+        "contact:read",
+        "dashboard:read",
+        "diary:read",
+        "documents:read",
+        "external:pexa:user:read",
+        "external:pexa:workspace:read",
+        "matter:communications:read",
+        "matter:documents:read",
+        "matter:edit:read",
+        "matter:financials:balance:read",
+        "matter:financials:fees-duties:read",
+        "matter:financials:held-in-trust:read",
+        "matter:financials:rates-taxes:busselton-water:read",
+        "matter:financials:rates-taxes:council:read",
+        "matter:financials:rates-taxes:esl:read",
+        "matter:financials:rates-taxes:extra:read",
+        "matter:financials:rates-taxes:land:read",
+        "matter:financials:rates-taxes:miscellaneous:read",
+        "matter:financials:rates-taxes:strata:read",
+        "matter:financials:rates-taxes:water-consumption:read",
+        "matter:financials:rates-taxes:water:read",
+        "matter:financials:statements-invoices:read",
+        "matter:history:read",
+        "matter:invites:read",
+        "matter:notes:read",
+        "matter:orders:read",
+        "matter:pexa:documents:read",
+        "matter:pexa:settlement:read",
+        "matter:progress:read",
+        "matter:read",
+        "matter:trust:ledger:read",
+        "matter:trust:read",
+        "notifications:read",
+        "preferences:read",
+        "quotes:read",
+        "reminders:read",
+        "tasks:read",
+        "user:read",
+        "user:settings:email:ms:read",
+        "user:settings:read"
+      ]
+    },
+    "RTCADMIN": {
+      "description": "Role for user to access global admin functionality",
+      "permissions": [
+        "rtc-admin:councils:edit",
+        "rtc-admin:councils:view",
+        "rtc-admin:fees:edit",
+        "rtc-admin:fees:view",
+        "rtc-admin:organisations:edit",
+        "rtc-admin:organisations:view",
+        "rtc-admin:rate-tier-usage:edit",
+        "rtc-admin:rate-tier-usage:view",
+        "rtc-admin:rate-usage-land-tax:edit",
+        "rtc-admin:rate-usage-land-tax:view",
+        "rtc-admin:reports:active-users:generate",
+        "rtc-admin:reports:active-users:read",
+        "rtc-admin:reports:matters-settled:generate",
+        "rtc-admin:reports:matters-settled:read",
+        "rtc-admin:reports:ssrs-report:create",
+        "rtc-admin:reports:ssrs-report:read",
+        "rtc-admin:reports:ssrs-report:update",
+        "rtc-admin:users:edit",
+        "rtc-admin:users:mfa:delete",
+        "rtc-admin:users:view",
+        "rtc-admin:version:view",
+        "rtc-admin:workflow:view"
+      ]
+    },
+    "RTCSUPPORT": {
+      "description": "Role for RTC Support Users",
+      "permissions": [
+        "rtc-support:read",
+        "rtc-support:update"
+      ]
+    },
+    "USERS": {
+      "description": "Role for general use of members of an organisation.",
+      "permissions": [
+        "contact-management:contacts:create",
+        "contact-management:contacts:delete",
+        "contact-management:contacts:read",
+        "contact-management:contacts:update",
+        "contact-management:read",
+        "contact:create",
+        "contact:delete",
+        "contact:read",
+        "dashboard:read",
+        "diary:create",
+        "diary:read",
+        "diary:update",
+        "documents:delete",
+        "documents:download",
+        "documents:read",
+        "documents:update",
+        "external:pexa:user:read",
+        "external:pexa:workspace:create",
+        "external:pexa:workspace:maintain",
+        "external:pexa:workspace:read",
+        "external:pexa:workspace:retrieve",
+        "matter:communications:create",
+        "matter:communications:email",
+        "matter:communications:read",
+        "matter:communications:update",
+        "matter:create",
+        "matter:documents:create",
+        "matter:documents:read",
+        "matter:documents:update",
+        "matter:edit:read",
+        "matter:edit:update",
+        "matter:financials:balance:create",
+        "matter:financials:balance:read",
+        "matter:financials:fees-duties:create",
+        "matter:financials:fees-duties:read",
+        "matter:financials:fees-duties:update",
+        "matter:financials:held-in-trust:edit",
+        "matter:financials:held-in-trust:read",
+        "matter:financials:rates-taxes:busselton-water:create",
+        "matter:financials:rates-taxes:busselton-water:read",
+        "matter:financials:rates-taxes:council:create",
+        "matter:financials:rates-taxes:council:read",
+        "matter:financials:rates-taxes:esl:create",
+        "matter:financials:rates-taxes:esl:read",
+        "matter:financials:rates-taxes:extra:create",
+        "matter:financials:rates-taxes:extra:read",
+        "matter:financials:rates-taxes:land:create",
+        "matter:financials:rates-taxes:land:read",
+        "matter:financials:rates-taxes:miscellaneous:create",
+        "matter:financials:rates-taxes:miscellaneous:read",
+        "matter:financials:rates-taxes:strata:create",
+        "matter:financials:rates-taxes:strata:read",
+        "matter:financials:rates-taxes:water-consumption:create",
+        "matter:financials:rates-taxes:water-consumption:read",
+        "matter:financials:rates-taxes:water:create",
+        "matter:financials:rates-taxes:water:read",
+        "matter:financials:statements-invoices:create",
+        "matter:financials:statements-invoices:read",
+        "matter:financials:taxes:council:manualOverride:update",
+        "matter:financials:taxes:esl:manualOverride:update",
+        "matter:financials:taxes:land:manualOverride:update",
+        "matter:financials:taxes:strata:insurance:manualOverride:update",
+        "matter:financials:taxes:strata:manualOverride:update",
+        "matter:financials:taxes:water-rates:manualOverride:update",
+        "matter:financials:taxes:water:consumption:manualOverride:update",
+        "matter:history:read",
+        "matter:invites:create",
+        "matter:invites:delete",
+        "matter:invites:read",
+        "matter:notes:create",
+        "matter:notes:read",
+        "matter:orders:create",
+        "matter:orders:read",
+        "matter:pexa:documents:read",
+        "matter:pexa:settlement:read",
+        "matter:pexa:settlement:update",
+        "matter:progress:create",
+        "matter:progress:read",
+        "matter:progress:update",
+        "matter:read",
+        "matter:trust:ledger:read",
+        "matter:trust:read",
+        "matter:trust:transactions:download",
+        "matter:trust:transactions:email",
+        "matter:update",
+        "notifications:delete",
+        "notifications:read",
+        "organisation:settings:create",
+        "organisation:settings:delete",
+        "preferences:read",
+        "provider:external:pexa:member:search",
+        "quotes:create",
+        "quotes:read",
+        "quotes:update",
+        "reminders:create",
+        "reminders:delete",
+        "reminders:read",
+        "reminders:update",
+        "tasks:create",
+        "tasks:delete",
+        "tasks:read",
+        "tasks:update",
+        "user:read",
+        "user:settings:email:ms:read",
+        "user:settings:email:ms:update",
+        "user:settings:read",
+        "user:settings:update",
+        "user:update"
+      ]
+    },
+    "USERS_BETA": {
+      "description": "Role for users of an organisation to test new features",
+      "permissions": [
+        "matter:financials:held-in-trust:edit",
+        "matter:financials:held-in-trust:read",
+        "organisation:trust:auto-finance:create",
+        "organisation:trust:auto-finance:read",
+        "organisation:trust:auto-finance:update"
+      ]
+    },
+    "manage:contact:payee-details": {
+      "description": "Group of zones to provide access to an Payee Details",
+      "permissions": [
+        "manage:contact:payee-details"
+      ]
+    },
+    "matter:notes:edit": {
+      "description": "Group of zones to provide access the ability to edit notes",
+      "permissions": [
+        "matter:notes:delete",
+        "matter:notes:update"
+      ]
+    },
+    "matter:trust": {
+      "description": "Group of zones to provide access to a matter's trust account",
+      "permissions": [
+        "matter:trust:journal:read",
+        "matter:trust:ledger:read",
+        "matter:trust:payments:read",
+        "matter:trust:read",
+        "matter:trust:receipts:read",
+        "matter:trust:transactions:create",
+        "matter:trust:transactions:download",
+        "matter:trust:transactions:edit",
+        "matter:trust:transactions:email"
+      ]
+    },
+    "organisation.admin:staffs": {
+      "description": "Group of zones to provide access to an organisation's staff profiles",
+      "permissions": [
+        "organisation.admin:staffs:view"
+      ]
+    },
+    "organisation:dashboard": {
+      "description": "Groups the zones related to the organisation dashboard - no reports",
+      "permissions": [
+        "organisation:dashboard:read"
+      ]
+    },
+    "organisation:reports": {
+      "description": "Groups the zones related to the organisation reports",
+      "permissions": [
+        "organisation:dashboard:read",
+        "organisation:reports:read"
+      ]
+    },
+    "organisation:settings": {
+      "description": "Group of zones to provide access to an organisation's settings",
+      "permissions": [
+        "organisation:settings:create",
+        "organisation:settings:delete",
+        "organisation:settings:read",
+        "organisation:settings:update"
+      ]
+    },
+    "organisation:templates": {
+      "description": "Group of zones to provide access to an organisation's templates",
+      "permissions": [
+        "organisation:templates:create",
+        "organisation:templates:read",
+        "organisation:templates:update"
+      ]
+    },
+    "organisation:templates:archive": {
+      "description": "Group of zones to provide access to archiving an organisation's templates",
+      "permissions": [
+        "organisation:templates:delete"
+      ]
+    },
+    "organisation:trust-account": {
+      "description": "Groups the zones related to the organisation trust-account",
+      "permissions": [
+        "matter:trust:transactions:edit",
+        "trust:ledger:create",
+        "trust:ledger:read",
+        "trust:ledger:reconcile",
+        "trust:ledger:transaction:create",
+        "trust:ledger:update"
+      ]
+    },
+    "organisation:trust-account:reports": {
+      "description": "Groups the zones related to the organisation trust-account reports",
+      "permissions": [
+        "organisation:trust:reports:read"
+      ]
+    },
+    "organisation:trust:auto-finance": {
+      "description": "Group of zones to provide access to autofinancing",
+      "permissions": [
+        "organisation:trust:auto-finance:create",
+        "organisation:trust:auto-finance:read",
+        "organisation:trust:auto-finance:update"
+      ]
+    },
+    "organisation:workflow": {
+      "description": "Group of zones to provide access to an organisation's workflow",
+      "permissions": [
+        "organisation:workflow:create",
+        "organisation:workflow:delete",
+        "organisation:workflow:read",
+        "organisation:workflow:update"
+      ]
+    },
+    "users:contact:bank-details": {
+      "description": "Group of zones to provide access to an Contact's Bank Details",
+      "permissions": [
+        "users:contact:bank-details:create",
+        "users:contact:bank-details:read",
+        "users:contact:bank-details:update"
+      ]
+    },
+    "users:contact:bank-details:notification": {
+      "description": "Group of zones to provide access to an Contact's Bank Details Notifications",
+      "permissions": [
+        "users:contact:bank-details:notification:read"
+      ]
+    },
+    "users:others:access-roles": {
+      "description": "Groups the zones related to altering another user's assignable roles",
+      "permissions": [
+        "users:others:access-roles:get",
+        "users:others:access-roles:update"
+      ]
+    }
+  }
+}
