@@ -6,7 +6,7 @@
     "scripts": {
         "test": "jest",
         "prebuild": "rm -rf dist",
-        "build": "esbuild src/index.ts --bundle --sourcemap --platform=node --target=es2020 --outfile=dist/index.js",
+        "build": "esbuild src/index.ts --sourcemap --platform=node --target=es2020 --outfile=dist/index.js",
         "postbuild": "cd dist && zip -r index.zip index.js",
         "buildCheckJson": "esbuild checkJson.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=checkJsonDist/checkJson.js",
         "checkJson": "npm run buildCheckJson && NODE_ENV=production node checkJsonDist/checkJson.js",
