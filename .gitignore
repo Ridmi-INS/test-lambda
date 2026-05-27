@@ -108,6 +108,9 @@ checkJsonDist
 # Docusaurus cache and generated files
 .docusaurus
 
+# Lambda deployment packages
+*.zip
+
 # Serverless directories
 .serverless/
 
